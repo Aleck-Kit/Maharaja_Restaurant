@@ -1,0 +1,408 @@
+body{
+	 font-family: 'Open Sans',
+	 sans-serif;
+	 font-size: 15px;
+}
+
+body h1,h2,h3,h4,h5{
+	font-family: 'Bebas Neue',
+	cursive;
+}
+nav img{
+	margin-left:75px;
+}
+.nav-item{
+	padding-right: 12px;
+	padding-left: 12px;
+}
+.flag{
+	max-height: 20px;
+	max-width: 20px;
+	margin-top: 10px;
+}
+.nav-link.active{
+	background-color: lightgrey !important;
+}
+
+.carousel h1{
+	font-family: 'Berkshire Swash',
+	cursive;
+}
+
+.carousel h5{
+	font-family: 'Open Sans',
+	sans-serif;
+}
+
+ .carousel img{
+	width: auto;
+	height: 660px;
+	max-height: 660px;
+} 
+
+/* carousel Fade */
+.carousel-fade .carousel-item {
+	opacity: 0;
+	transition-duration: .6s;
+	transition-property: opacity;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+	opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+	opacity: 0;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev {
+	transform: translateX(0);
+	transform: translate3d(0, 0, 0);
+}
+/* carousel Fade end */
+
+.caption-box{
+	background: rgba(0, 182, 221, 0.8);
+	color: #fff;
+	
+}
+
+.del-memories{
+	margin-top:90px;
+}
+
+.our-cuisine{
+	margin-top:90px;
+}
+
+
+
+/* Meal Flip-Cards */
+.flip-card {
+	background-color: transparent;
+	width: 400px;
+	height: 300px;
+	perspective: 1000px;
+}
+
+.flip-card-inner {
+	position: relative; 
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.6s;
+	transform-style: preserve-3d;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+.flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+	cursor: pointer;
+}
+
+.flip-card-front,
+.flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.flip-card-front {
+	background-color: #bbb;
+	color: black;
+}
+
+.flip-card-back {
+	background-color: black;
+	color: rgb(199, 121, 5);
+	transform: rotateY(180deg);
+}
+.flip-card-back h1{
+	
+	 position: absolute;
+	top:45%;
+	left:25%; 
+	/* margin: -25px 0 0 -25px; */
+}
+/* End Meal Flip-Cards */
+
+.reserve-container {
+	position: relative;
+}
+
+.reserve-text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-reserve{
+	opacity: 0.4;
+	max-height: 750px;
+}
+
+.image-location{
+	/* opacity: 0.9; */
+	width:100%;
+	max-height: 650px;
+	border-width:5px;
+	border-style: double;
+
+}
+
+.carousel-caption{
+	top: 40%;
+}
+
+.img-slider{
+	min-height: 320px;
+}
+
+.navMenu{
+	padding-top: 75px;
+	padding-bottom: 20px;
+}
+
+.card-img-top{
+	height: 200px;
+}
+
+.map{
+	height: 320px;
+}
+
+
+
+/***** Footer *****/
+
+.footer-top {
+	padding: 60px 0;
+	background: #333;
+	text-align: left;
+	color: #aaa;
+}
+
+.footer-top h3 {
+	padding-bottom: 10px;
+	color: #fff;
+}
+
+.footer-about img.logo-footer {
+	/* max-width: 74px; */
+	margin-top: 0;
+	margin-bottom: 18px;
+}
+
+.footer-about p a {
+	color: #aaa;
+	border-bottom: 1px dashed #666;
+}
+
+.footer-about p a:hover,
+.footer-about p a:focus {
+	color: #fff;
+	border-color: #aaa;
+}
+
+.footer-contact p {
+	word-wrap: break-word;
+}
+
+.footer-contact i {
+	padding-right: 10px;
+	font-size: 18px;
+	color: #666;
+}
+
+.footer-contact p a {
+	color: #aaa;
+	border-bottom: 1px dashed #666;
+}
+
+.footer-contact p a:hover,
+.footer-contact p a:focus {
+	color: #fff;
+	border-color: #aaa;
+}
+
+.footer-social a {
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 8px;
+	color: #777;
+	border: 0;
+}
+
+.footer-social a:hover,
+.footer-social a:focus {
+	color: #aaa;
+	border: 0;
+}
+
+.footer-social i {
+	font-size: 24px;
+	vertical-align: middle;
+}
+
+.footer-bottom {
+	padding: 15px 0;
+	background: #444;
+	text-align: left;
+	color: #aaa;
+}
+
+.footer-copyright p {
+	margin: 0;
+	padding: 0.5rem 0;
+}
+
+.footer-copyright a {
+	color: #fff;
+	border: 0;
+}
+
+.footer-copyright a:hover,
+.footer-copyright a:focus {
+	color: #aaa;
+	border: 0;
+}
+
+/* footer navbar */
+.navbar {
+	padding: 0;
+	background: #444;
+	backface-visibility: hidden;
+}
+
+.navbar-dark .navbar-nav {
+	font-size: 15px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+	border: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #aaa;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+	color: #aaa;
+	outline: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+form{padding: 10px 0;}
+
+
+@media screen and (max-width : 1920px) {
+	.only-mobile {
+		visibility: hidden;
+	}
+}
+
+@media screen and (max-width : 506px) {
+
+	.only-mobile {
+		visibility: visible;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.section-1-box .section-1-box-icon {
+		width: 60px;
+		height: 60px;
+		font-size: 32px;
+		line-height: 60px;
+	}
+
+	.footer-top {
+		padding: 40px 0;
+	}
+
+	.footer-social a {
+		margin-right: 10px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.footer-top {
+		padding: 40px 0;
+	}
+
+	.footer-contact i {
+		padding-right: 5px;
+	}
+
+	.footer-social a {
+		margin-right: 10px;
+	}
+
+	.navbar-expand-md .navbar-nav .nav-link {
+		padding-left: 0.6rem;
+		padding-right: 0.6rem;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	.footer-top {
+		padding: 40px 0;
+		text-align: center;
+	}
+
+	.footer-contact i {
+		padding-right: 5px;
+	}
+
+	.footer-bottom,
+	.footer-social {
+		text-align: center;
+	}
+
+	.footer-social a {
+		margin: 0 10px;
+	}
+
+	.navbar {
+		justify-content: center;
+	}
+
+	.navbar-dark .navbar-toggler {
+		border-color: #444;
+	}
+
+	.navbar-dark .navbar-toggler:focus {
+		background: #333;
+		outline: 0;
+	}
+
+	.navbar-expand-md .navbar-nav .nav-link {
+		padding-top: 0.3rem;
+		padding-bottom: 0.3rem;
+	}
+
+}
