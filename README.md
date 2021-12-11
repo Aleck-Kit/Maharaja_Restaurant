@@ -28,7 +28,7 @@ The site is compatible with devices of all sizes and all OS's, and consistent im
 
 ## License
 
-MIT © [Aleck Kitenge](https://github.com/Aleck-Kit)
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
 
