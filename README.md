@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
-An online store dealing exclusively in African Coffee. I'm particularly proud of this project as it was my very first attempt at building anything once I'd learned enough HTML, CSS and JavaScript to do so. The JS was particualry challenging, as I'd not yet learned any frameworks that would have simplified quite a number of tasks; but I understood the importance of getting to grips with the fundamentals first. 
+A site concept I developed for a local Indian restaurant that's been a mainstay in my city for decades, but has never had an online presence of any kind whatsoever. I sat with the restaurant's owners and we discussed what they most wanted the site to convey to their loyal customers. One of the first projects I embarked on ustilising React, I                 
 </td>
 </tr>
 </table>
