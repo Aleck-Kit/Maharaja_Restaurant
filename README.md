@@ -1,4 +1,4 @@
-# ![test2](hmaharajaa.png)
+# ![test2](maharaja.png)
 # Maharaja
 <table>
 <tr>
