@@ -3,14 +3,14 @@
 <table>
 <tr>
 <td>
-A site concept I developed for a local Indian restaurant that's been a mainstay in my city for decades, but has never had an online presence of any kind whatsoever. I sat with the restaurant's owners and we discussed what they most wanted the site to convey to their loyal customers. One of the first projects I embarked on ustilising React, I                 
+A site concept I developed for a local Indian restaurant that's been a mainstay in my city for decades, but has never had an online presence of any kind whatsoever. I sat with the restaurant's owners and we discussed what they most wanted the site to convey to their loyal customers. On the coding side of things, this was my first project utilising React and I was still getting the hang of implementing a JS framework in place of pure vanilla Javascript.
 </td>
 </tr>
 </table>
 
 
 ## Site
-Have a look at the site here :  https://habarijava-african-coffee-hub-ecommerce.netlify.app/
+Have a look at the site here :  https://maharaja-restaurant-project-react2021.netlify.app/#Welcome
 
 
 ## Mobile support
